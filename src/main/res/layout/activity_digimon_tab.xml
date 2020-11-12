@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingLeft="40dp"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:id="@+id/patamonImg"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        app:srcCompat="@drawable/patamon"
+        />
+
+    <ImageView
+        android:id="@+id/gomamonImg"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        app:srcCompat="@drawable/gomamon" />
+
+    <ImageView
+        android:id="@+id/gatomonImg"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/gatomon"
+        android:layout_row="3"
+        android:layout_column="0" />
+
+    <ImageView
+        android:id="@+id/biyomonImg"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        app:srcCompat="@drawable/biyomon" />
+    <ImageView
+        android:id="@+id/koromonImg"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        android:layout_row="6"
+        android:layout_column="0"
+        app:srcCompat="@drawable/koromon" />
+    <ImageView
+        android:id="@+id/greymonImg"
+        android:layout_width="164dp"
+        android:layout_height="175dp"
+        android:layout_row="6"
+        android:layout_column="1"
+        app:srcCompat="@drawable/greymon" />
+
+    <TextView
+        android:id="@+id/patamonLbl"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Patamon"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/patamonPrice"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="Y 10000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/gomamonLbl"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="Gomamon"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/gomamonPrice"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="Y 15000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/gatomonLbl"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="Gatomon"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/gatomonPrice"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="Y 8000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/biyomonLbl"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:text="biyomon"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/biyomonPrice"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:text="Y 7500"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/koromonLbl"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:text="Koromon"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/koromonPrice"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:text="Y 12000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/greymonLbl"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:text="Greymon"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/greymonPrice"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="1"
+        android:text="Y 12500"
+        android:textAlignment="center"/>
+
+</GridLayout>

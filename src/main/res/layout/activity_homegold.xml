@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homesilver">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="427dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/atas" />
+
+    <TextView
+        android:id="@+id/welcomeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,\nGuest"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <ImageButton
+        android:id="@+id/logoutBtn"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:background="#fffff"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logoutt"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toEndOf="@+id/welcomeTxt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <Button
+        android:id="@+id/bronzeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDB435"
+        android:text="Bronze"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Button
+        android:id="@+id/silverBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FDB435"
+        android:text="Silver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bronzeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Button
+        android:id="@+id/goldBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F99D1B"
+        android:text="Gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/silverBtn"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <ImageView
+        android:id="@+id/golddiamond"
+        android:layout_width="99dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/silverBtn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gold" />
+
+    <TextView
+        android:id="@+id/goldTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Gold Membership's Benefits"
+        android:textColor="#DE9B29"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/golddiamond"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <ImageView
+        android:id="@+id/gcheck1"
+        android:layout_width="39dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goldTxt"
+        app:layout_constraintVertical_bias="0.059"
+        app:srcCompat="@drawable/goldv" />
+
+    <TextView
+        android:id="@+id/goldone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated news on digimon sales"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toEndOf="@+id/gcheck1"
+        app:layout_constraintTop_toBottomOf="@+id/goldTxt"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <ImageView
+        android:id="@+id/gcheck2"
+        android:layout_width="39dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcheck1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/goldv" />
+
+    <TextView
+        android:id="@+id/goldtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20% off every purchase"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toEndOf="@+id/gcheck2"
+        app:layout_constraintTop_toBottomOf="@+id/goldone"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <ImageView
+        android:id="@+id/gcheck3"
+        android:layout_width="39dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcheck2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/goldv" />
+
+    <TextView
+        android:id="@+id/goldthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No advertisement"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toEndOf="@+id/gcheck3"
+        app:layout_constraintTop_toBottomOf="@+id/goldtwo"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <ImageView
+        android:id="@+id/gcheck4"
+        android:layout_width="39dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcheck3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/goldv" />
+
+    <TextView
+        android:id="@+id/goldfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limited edition digimon on sale"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toEndOf="@+id/gcheck4"
+        app:layout_constraintTop_toBottomOf="@+id/goldthree"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <ImageView
+        android:id="@+id/gcheck5"
+        android:layout_width="39dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gcheck4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/goldv" />
+
+    <TextView
+        android:id="@+id/goldfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5% off on limited edition digimon"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toEndOf="@+id/gcheck5"
+        app:layout_constraintTop_toBottomOf="@+id/goldfour"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="424dp"
+        android:layout_height="354dp"
+        app:srcCompat="@drawable/bawah"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <ImageButton
+        android:id="@+id/homeBtn"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:background="#fffff"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/homeorgg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTxt"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/digimonBtn"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="12dp"
+        android:background="#fffff"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/digimon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toEndOf="@+id/homeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/bentwo"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <ImageButton
+        android:id="@+id/contactusBtn"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:background="#fffff"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/contactuss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/digimonBtn"
+        app:layout_constraintTop_toBottomOf="@+id/logoutBtn"
+        app:layout_constraintVertical_bias="0.979" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
